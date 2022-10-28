@@ -1,0 +1,66 @@
+/* html, body {
+  height: 100%;
+  width: 100%;
+} */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: white;
+/*    font-family: [Lexend Deca];
+   font-weight: 400;
+   font-display: [Big Shoulders];
+    */
+}
+main{
+   width:50%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+  text-align: left;
+  font-size: 15px;
+  color: whitesmoke;
+   
+}
+#container1{
+   background-color: hsl(31, 77%, 52%);
+   padding: 2.5em;
+   width: 100%
+}
+#container2{
+   background-color: hsl(184, 100%, 22%);
+   padding: 2.5em;
+   width: 100%
+}
+#container3{
+   background-color: hsl(179, 100%, 13%);
+   padding: 2.5em;
+   width: 100%
+}
+h2{
+   padding: 1em;
+   font-weight: 700;
+   text-align: left;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 2px;
+  line-height: 1.5em;
+}
+p{
+  font-family: "Lexend Deca", sans-serif;
+   font-weight: 400;
+  margin: 2.5;
+    line-height: 1.5em;
+}
+input{
+   border-radius: 20px;
+  padding: 12px;
+  width: 10em;
+  margin-top: 50px;
+  margin: 15px 10px 15px 20px;
+}
+
+

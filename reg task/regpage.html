@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Regform</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+      <div><h2>Registeration Page</h2></div>
+      <section>
+        <h3>Fill this to register</h3>
+        <form action="success.html">
+          <div>
+            <label for="fname">Firstname:</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstnmae"
+              placeholder="Firstname"
+              required
+            />
+          </div>
+          <div>
+            <label for="lname">Lastname:</label>
+            <input
+              type="text"
+              id="lasttname"
+              name="lastnmae"
+              placeholder="Lastname"
+              required
+            />
+          </div>
+          <div>
+            <label for="phonenumber">Phonenumber:</label>
+            <input
+              type="number"
+              name="phonenumber"
+              id="phonenumber"
+              placeholder="Phonenumber"
+              required
+            />
+          </div>
+          <div>
+            <label for="Email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+              <option value="holder">please select gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div>
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="DOB" id="DOB" required />
+          </div>
+          <div>
+            <label for="colour">Favourite Colour:</label>
+            <input
+              type="color"
+              name="favcolour"
+              id="favcolour"
+              value="#0000ff"
+              placeholder="please select your favourite colour"
+              required
+            />
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Input Password"
+              pattern="(?=.*[a-z]).{8,}"
+              title="must contain at least 8 lowercase alphabets between a-z"
+              required
+            />
+          </div>
+          <div>
+            <label for="cpassword">Confirm Password:</label>
+            <input
+              type="password"
+              name="confirmpassword"
+              id="confirmpassword"
+              placeholder="Confirm Password"
+              pattern="(?=.*[a-z]).{8,}"
+              title="must contain at least 8 lowercase alphabets between a-z"
+              required
+            />
+            <a href="success.html"><input type="submit" value="REGISTER"</a>
+          </div>
+        </form>
+      </section>
+    </main>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

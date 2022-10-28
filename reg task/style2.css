@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+   background-color:rgb(10, 63, 105);
+}
+main{
+   background-color:     aliceblue;
+   color: rgb(10, 63, 105);
+   width: 60%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 8px;
+  padding: 30px 30px 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+div{
+   background-color:rgb(10, 63, 105);
+  color:aliceblue ;
+  font-weight: bold;
+  width: 90%;
+  height: max-content;
+  border-radius: 8px;
+  padding: 20px 30px 30px;
+}
